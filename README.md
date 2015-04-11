@@ -33,5 +33,5 @@ Only the "GSMSHIELD" library is amended; the other libraries are there for a "fa
 More information on: https://github.com/anerDev/ASSM1/wiki/Libraries-setting
 
 ## LICENSE ##
-- The "assm1.ino" is under "MIT 2.0";
+- The "assm1.ino" is under "The MIT License (MIT)";
 - The libraries are under the proprietary license.
