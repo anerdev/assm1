@@ -1,23 +1,36 @@
-Arduino Sky Safari Mission #1 (ASSM1)
+# Arduino Sky Safari Mission #1 (ASSM1) #
+## High Altitude Balloon. ##
 
-For all information about this project, go to: http://www.anerdev.net/project/assm/
+For all information about this project, go to: [www.anerdev.net/project/assm/](http://www.anerdev.net/assm1)
 
-IMPORTANT !
+In the folder "assm1" you can found the "assm1.ino" Arduino's sketch file.
 
-The final skech (called assm.ino) is located in the "assm" folder;
-The libraries that you can found in the folder "libraries" are already configured for work with this project; you must import these libraries in your Arduino library folder (http://arduino.cc/en/Guide/Libraries for more info). Only the "GSMSHIELD_futura" library is amended; the other libraries are there for a "fast download" of all. More information on: https://github.com/anerDev/ASSM1/wiki/Libraries-setting
-Original library link:
+This code is based on this hardware configuration:
+- [Arduino Mega 2560](http://arduino.cc/en/Main/ArduinoBoardMega2560);
+- [Futura Elettronica SD Shield](https://www.futurashop.it/index.php?route=product/product&filter_name=arduino+sd&page=2&product_id=4723);
+- [Futura Elettronica GSM/GPS Shield V2 with SIM908](https://www.futurashop.it/index.php?route=product/product&filter_name=gsm+shield&product_id=334);
+- [NTX2 Radio Transmitter](http://www.radiometrix.com/content/ntx2).
+- [DS18B20 temperature sensor](http://www.adafruit.com/product/374);
+- [DHT22 humidity sensor](http://www.adafruit.com/products/385);
+- [MPL115A2 atmospheric pressure sensor](http://www.adafruit.com/products/992);
 
-OneWire: http://playground.arduino.cc/Learning/OneWire
+With this software version:
+- Arduino IDE = [version 1.0](http://arduino.cc/en/Main/OldSoftwareReleases);
+- OneWire = [version undefined](http://playground.arduino.cc/Learning/OneWire);
+- SdFatLib = [version 20130629](https://code.google.com/p/sdfatlib/);
+- GSM/GPS GSMLib Library = [version 305](http://www.gsmlib.org/download.html);
+- NTX2 = [version undefined by UKHas Community](http://ukhas.org.uk/guides:linkingarduinotontx2);
+- DS18B20 = [version 3.7.2 by Miles Burton](http://milesburton.com/Dallas_Temperature_Control_Library);
+- MPL115A2 = [version uundefined by Misenso](https://github.com/misenso/MPL115A2-Arduino-Library);
+- DHT22 = [version 0.5 by Nethoncho](https://github.com/nethoncho/Arduino-DHT22);
 
-SdFatLib version 20130629: https://code.google.com/p/sdfatlib/
+## IMPORTANT ! ##
 
-GSM Shield Library versione 305 beta by Futura Elettronica: https://code.google.com/p/gsm-shield-arduino/downloads/detail?name=BETA_GSM_GPRS_GPS_IDE100_v305.zip&can=2&q=
+The libraries that you can found in the folder "libraries" are already configured for work with this project;
+you must import these libraries into your Arduino library folder ([for more info click here](http://arduino.cc/en/Guide/Libraries)).
+Only the "GSMSHIELD" library is amended; the other libraries are there for a "fast download" of all. 
+More information on: https://github.com/anerDev/ASSM1/wiki/Libraries-setting
 
-DS18B20 Library version 3.7.2 by Miles Burton: http://milesburton.com/Dallas_Temperature_Control_Library
-
-MPL115A2 Library versione none by Misenso: https://github.com/misenso/MPL115A2-Arduino-Library
-
-DHT22 Library version 0.5 by Nethoncho: https://github.com/nethoncho/Arduino-DHT22
-
-NTX2 Library vesione none by UkHas Community: http://ukhas.org.uk/guides:linkingarduinotontx2
+## LICENSE ##
+- The "assm1.ino" is under "MIT 2.0";
+- The libraries are under the proprietary license.
