@@ -1,7 +1,7 @@
 # Arduino Sky Safari Mission #1 (ASSM1) #
 ### High Altitude Balloon - Payload source code ###
 
-For all information about this project, go to: [www.anerdev.net/project/assm/](http://www.anerdev.net/assm1)
+For all information about this project, go to: [www.anerdev.net/assm1](http://www.anerdev.net/assm1)
 
 In the folder "assm1" you can found the "assm1.ino": is the Arduino sketch.
 
